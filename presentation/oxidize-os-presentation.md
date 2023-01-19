@@ -6,7 +6,7 @@ backgroundColor: #2A2A2A
 header: '![width:100px height:100px](./img/logo.png)'
 footer: "**19/01/2023 - AnthonyF et ZyadS**"
 ---
-<style>
+<style> 
 section {
   font-family: 'Century Gothic', serif !important;
 }
@@ -40,7 +40,60 @@ section {
 ---
 <!-- _class: invert -->
 
+# Main function
+
+- Layer of abstraction beetween hardware and software
+- Manages system resource (RAM, CPU)
+- Handles Syscalls
+- Provides Filesystem
+- Provides networking
+- Manages devices
+- Manages processes (multithreading)
+- Designed to be modular (Linux Kernel Module LKM)
+
+
+---
+<!-- _class: invert -->
+# OS Architecture
+
+![100%](./img/linux-abstraction.png)
+
+---
+<!-- _class: invert -->
+
+![bg 75%](./img/LKM.svg)
+
+---
+<!-- _class: invert -->
+
 # Environment setup
+
+---
+<!-- _class: invert -->
+
+# Tools to install
+
+## Rustup
+
+- [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install) (Cargo, rustc)
+
+## IDE
+
+- VS Code, IntelliJ IDEA, CLion, Neovim, Code::Blocks :eyes:
+
+## Hypervisor
+
+- QEMU
+
+---
+<!-- _class: invert -->
+
+# Files configuration
+
+- `Cargo.toml`
+- `config.toml`
+- `rust-toolchain.toml`
+- `target.json`
 
 ---
 <!-- _class: invert -->
@@ -121,3 +174,9 @@ for (i, &byte) in STRING.iter().enumerate() {
     }
 }
 ```
+
+---
+<!-- _class: invert -->
+## Appedendix
+ - https://makelinux.github.io/kernel/map/
+ - 
